@@ -6,6 +6,7 @@ import Education from './components/Education';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import FloatingEmojis from './components/FloatingEmojis';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 function App() {
   return (
