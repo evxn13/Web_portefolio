@@ -6,8 +6,8 @@ import Education from './components/Education';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import FloatingEmojis from './components/FloatingEmojis';
-import { SpeedInsights } from "@vercel/speed-insights/next"
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
   return (
@@ -22,6 +22,10 @@ function App() {
         <Contact />
       </main>
       <Footer />
+
+      {}
+      <Analytics />
+      <SpeedInsights />
     </div>
   );
 }
